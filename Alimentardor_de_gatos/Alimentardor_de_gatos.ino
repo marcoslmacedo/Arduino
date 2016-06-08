@@ -1,14 +1,14 @@
 // temporizador para acionamento do motor do alimentador
 
-//int seg=0, min=0, hor=0;      // inteiros referente ao relógio
+//int seg=0, min=0, hor=0;          // inteiros referente ao relógio
 //int Pino_motor = 04;              // pino de saida do sinal para o servo motor
-//int motState = LOW; // motState usado para armazena o estado atual do motor aceso o desligado
-//long intervalo = 1000; // intervalo de um segundo
+//int motState = LOW;              // motState usado para armazena o estado atual do motor aceso o desligado
+//long intervalo = 1000;           // intervalo de um segundo
 
 
 #include <Servo.h> 
  
-Servo microservo;                      // cria um objeto chavado 'microservo' para controlar o servo motor 
+Servo microservo;                      // cria um objeto chamado 'microservo' para controlar o servo motor 
                 
  
 int pos = 0;                          // variavel para armazenar a posicao do servo
